@@ -4,7 +4,7 @@
 
 Choose packages by the boundary your application needs. The core stays small; capabilities are explicit packages with their own release and evidence.
 
-This snapshot is dated **2026-07-28** and is pinned to [`hayatepy/.github` at `4a835741aed9`](https://github.com/hayatepy/.github/tree/4a835741aed9790fc9a9de9c007860187cbc4881). Every package is pre-1.0; check the compatibility snapshot before combining versions.
+This snapshot is dated **2026-07-28** and is pinned to [`hayatepy/.github` at `edc90e493462`](https://github.com/hayatepy/.github/tree/edc90e493462645e2b88d34cf2f91a79bee349c1). Every package is pre-1.0; check the compatibility snapshot before combining versions.
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
@@ -19,7 +19,7 @@ This snapshot is dated **2026-07-28** and is pinned to [`hayatepy/.github` at `4
 | [`hayate-htmx`](https://github.com/hayatepy/hayate-htmx) | `0.2.0` | Hypermedia, Jinja, htmx, fragments, and SSE | Pre-release source |
 | [`golden-app`](https://github.com/hayatepy/golden-app) | `0.1.0` | Executable production integration | Reference application |
 
-[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/4a835741aed9790fc9a9de9c007860187cbc4881/docs/COMPATIBILITY.md)
+[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/edc90e493462645e2b88d34cf2f91a79bee349c1/docs/COMPATIBILITY.md)
 
 ## hayate
 

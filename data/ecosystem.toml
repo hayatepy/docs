@@ -1,8 +1,8 @@
 schema_version = 1
 as_of = "2026-07-28"
 source_repository = "hayatepy/.github"
-source_commit = "4a835741aed9790fc9a9de9c007860187cbc4881"
-compatibility_url = "https://github.com/hayatepy/.github/blob/4a835741aed9790fc9a9de9c007860187cbc4881/docs/COMPATIBILITY.md"
+source_commit = "edc90e493462645e2b88d34cf2f91a79bee349c1"
+compatibility_url = "https://github.com/hayatepy/.github/blob/edc90e493462645e2b88d34cf2f91a79bee349c1/docs/COMPATIBILITY.md"
 
 [[packages]]
 name = "hayate"

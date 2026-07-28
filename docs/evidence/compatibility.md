@@ -4,7 +4,7 @@ The current public snapshot is dated **2026-07-28**. All packages remain
 pre-1.0, so compatible versions must be selected from evidence rather than
 assumed from package names.
 
-[Open the immutable compatibility snapshot](https://github.com/hayatepy/.github/blob/4a835741aed9790fc9a9de9c007860187cbc4881/docs/COMPATIBILITY.md){ .md-button .md-button--primary }
+[Open the immutable compatibility snapshot](https://github.com/hayatepy/.github/blob/edc90e493462645e2b88d34cf2f91a79bee349c1/docs/COMPATIBILITY.md){ .md-button .md-button--primary }
 
 ## Golden runtime lock
 
