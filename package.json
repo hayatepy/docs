@@ -1,0 +1,17 @@
+{
+  "name": "@hayatepy/docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unified documentation for the Hayate Python ecosystem",
+  "scripts": {
+    "build": "uv run zensical build --clean --strict && uv run python scripts/write_headers.py site && uv run python scripts/check_site.py site",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "4.114.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

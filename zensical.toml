@@ -1,0 +1,100 @@
+[project]
+site_name = "Hayate"
+site_description = "Web-standards-first Python across ASGI, Cloudflare Workers, and AWS Lambda"
+site_author = "The Hayate contributors"
+site_url = "https://hayate-docs.yusuke8h.workers.dev/"
+repo_url = "https://github.com/hayatepy/docs"
+repo_name = "hayatepy/docs"
+edit_uri = "edit/main/docs/"
+copyright = "Copyright &copy; 2026 Yusuke Hayashi and the Hayate contributors"
+extra_css = ["assets/stylesheets/hayate.20260728.2.css"]
+nav = [
+  { "Home" = "index.md" },
+  { "Get started" = [
+    { "Overview" = "get-started/index.md" },
+    { "First application" = "get-started/first-app.md" },
+    { "Choose a runtime" = "get-started/choose-runtime.md" },
+  ] },
+  { "Ecosystem" = [
+    { "Family map" = "ecosystem/index.md" },
+    { "Compose a stack" = "ecosystem/compose.md" },
+  ] },
+  { "Deploy" = [
+    { "Runtime model" = "deploy/index.md" },
+    { "ASGI" = "deploy/asgi.md" },
+    { "Cloudflare Workers" = "deploy/workers.md" },
+    { "AWS Lambda" = "deploy/lambda.md" },
+  ] },
+  { "Evidence" = [
+    { "How to read the evidence" = "evidence/index.md" },
+    { "Compatibility" = "evidence/compatibility.md" },
+    { "Benchmarks" = "evidence/benchmarks.md" },
+  ] },
+  { "Contribute" = "contribute.md" },
+]
+
+[project.theme]
+variant = "modern"
+language = "en"
+logo = "assets/images/hayate-mark.png"
+favicon = "assets/images/favicon.png"
+font = false
+features = [
+  "announce.dismiss",
+  "content.action.edit",
+  "content.action.view",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "content.tabs.link",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.instant.progress",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+edit = "lucide/pencil"
+view = "lucide/code-xml"
+
+[project.validation]
+invalid_links = true
+invalid_link_anchors = true
+unresolved_references = true
+unresolved_footnotes = true
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/hayatepy"
+name = "Hayate on GitHub"
+
+[[project.extra.social]]
+icon = "simple/pypi"
+link = "https://pypi.org/project/hayate/"
+name = "Hayate on PyPI"

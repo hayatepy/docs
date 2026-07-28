@@ -1,0 +1,402 @@
+:root {
+  --hayate-ink: #07131f;
+  --hayate-ink-soft: #102437;
+  --hayate-mint: #65e6c4;
+  --hayate-mint-dark: #087763;
+  --hayate-paper: #f4f7f5;
+  --md-primary-fg-color: #087763;
+  --md-primary-fg-color--light: #2e9b85;
+  --md-primary-fg-color--dark: #055b4d;
+  --md-accent-fg-color: #087763;
+  --md-text-font: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --md-code-font: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 206;
+  --md-primary-fg-color: var(--hayate-mint);
+  --md-primary-fg-color--light: #9af1da;
+  --md-primary-fg-color--dark: #2bbd9b;
+  --md-accent-fg-color: var(--hayate-mint);
+  --md-default-bg-color: var(--hayate-ink);
+  --md-default-bg-color--light: var(--hayate-ink-soft);
+}
+
+.md-header__button.md-logo img,
+.md-nav__button.md-logo img {
+  border-radius: 0.3rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 680;
+  letter-spacing: -0.025em;
+}
+
+.md-typeset a {
+  text-underline-offset: 0.16em;
+}
+
+.hayate-kicker {
+  color: var(--hayate-mint-dark);
+  font-family: var(--md-code-font);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin: 0 0 0.8rem;
+}
+
+[data-md-color-scheme="slate"] .hayate-kicker {
+  color: var(--hayate-mint);
+}
+
+.hayate-hero {
+  background: var(--hayate-ink);
+  color: var(--hayate-paper);
+  margin: -1.2rem calc(50% - 50vw) 4.8rem;
+  min-height: calc(100svh - 4.8rem);
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+.hayate-hero::after {
+  background: var(--hayate-mint);
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left;
+  width: 100%;
+  animation: hayate-line 900ms 350ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hayate-hero__inner {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1.25fr) minmax(14rem, 24rem);
+  margin: 0 auto;
+  max-width: 72rem;
+  min-height: calc(100svh - 4.8rem);
+  padding: 4rem 2.4rem;
+}
+
+.hayate-hero__copy {
+  max-width: 43rem;
+}
+
+.hayate-hero h1 {
+  color: var(--hayate-paper);
+  font-size: clamp(2.9rem, 5.2vw, 5.2rem);
+  line-height: 0.95;
+  margin: 0;
+  max-width: 14ch;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: hayate-enter 700ms 100ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hayate-lede {
+  color: #cbd9d6;
+  font-size: clamp(1rem, 2vw, 1.28rem);
+  line-height: 1.55;
+  margin: 2rem 0;
+  max-width: 38rem;
+  opacity: 0;
+  transform: translateY(0.8rem);
+  animation: hayate-enter 700ms 220ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hayate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  opacity: 0;
+  transform: translateY(0.8rem);
+  animation: hayate-enter 700ms 320ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hayate-hero .md-button {
+  border-color: #78918c;
+  color: var(--hayate-paper);
+}
+
+.hayate-hero .md-button--primary {
+  background: var(--hayate-mint);
+  border-color: var(--hayate-mint);
+  color: var(--hayate-ink);
+}
+
+.hayate-hero__mark {
+  aspect-ratio: 1;
+  border-radius: 1.2rem;
+  max-width: 100%;
+  opacity: 0;
+  transform: translate3d(1.2rem, 0.7rem, 0) rotate(2deg);
+  animation: hayate-mark-enter 900ms 180ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hayate-hero__mark:hover {
+  transform: translate3d(0, -0.25rem, 0) rotate(-1deg);
+  transition: transform 240ms ease;
+}
+
+.hayate-section,
+.hayate-runs,
+.hayate-proof,
+.hayate-final {
+  margin: 0 auto;
+  max-width: 68rem;
+  padding: 4.5rem 0;
+}
+
+.hayate-section--intro {
+  display: grid;
+  column-gap: 4rem;
+  grid-template-columns: minmax(12rem, 0.75fr) minmax(20rem, 1.25fr);
+}
+
+.hayate-section--intro .hayate-kicker {
+  grid-column: 1;
+}
+
+.hayate-section--intro h2 {
+  font-size: clamp(2rem, 5vw, 4.2rem);
+  grid-column: 1 / -1;
+  line-height: 1.02;
+  max-width: 14ch;
+}
+
+.hayate-section--intro > p:last-child {
+  font-size: 1.08rem;
+  grid-column: 2;
+  line-height: 1.75;
+}
+
+.hayate-runs {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.hayate-runs > h2,
+.hayate-section--family > h2,
+.hayate-proof h2,
+.hayate-final h2 {
+  font-size: clamp(1.9rem, 4vw, 3.3rem);
+  line-height: 1.08;
+  margin-bottom: 2.4rem;
+  max-width: 18ch;
+}
+
+.hayate-runs__grid {
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.hayate-runs__grid > div {
+  border-left: 1px solid var(--md-default-fg-color--lightest);
+  padding: 0.8rem 2rem 0.5rem;
+}
+
+.hayate-runs__grid > div:first-child {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.hayate-runs__grid h3 {
+  font-family: var(--md-code-font);
+  font-size: 0.86rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hayate-family-links {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin-top: 2.5rem;
+}
+
+.hayate-family-links a {
+  align-items: baseline;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  color: inherit;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(8rem, 0.4fr) 1fr;
+  padding: 1rem 0;
+  position: relative;
+  text-decoration: none;
+}
+
+.hayate-family-links a::before {
+  background: var(--hayate-mint-dark);
+  bottom: -1px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms ease;
+  width: 100%;
+}
+
+.hayate-family-links a:hover::before,
+.hayate-family-links a:focus-visible::before {
+  transform: scaleX(1);
+}
+
+.hayate-family-links span {
+  color: var(--md-default-fg-color--light);
+  font-family: var(--md-code-font);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.hayate-family-links strong {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+}
+
+.hayate-proof {
+  align-items: end;
+  background: var(--hayate-ink);
+  color: var(--hayate-paper);
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 1.2fr 1fr;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: none;
+  padding: 5.5rem max(2.4rem, calc((100vw - 68rem) / 2));
+}
+
+.hayate-proof h2 {
+  color: var(--hayate-paper);
+  margin-bottom: 0;
+}
+
+.hayate-proof > p {
+  color: #cbd9d6;
+  line-height: 1.7;
+}
+
+.hayate-proof .md-button {
+  border-color: var(--hayate-mint);
+  color: var(--hayate-mint);
+  justify-self: start;
+}
+
+.hayate-final {
+  text-align: center;
+}
+
+.hayate-final h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hayate-final code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  padding: 0.8rem 1rem;
+}
+
+@keyframes hayate-enter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hayate-mark-enter {
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate(0);
+  }
+}
+
+@keyframes hayate-line {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 760px) {
+  .hayate-hero {
+    min-height: auto;
+  }
+
+  .hayate-hero__inner {
+    gap: 1.4rem;
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 2.5rem 1.25rem;
+  }
+
+  .md-typeset .hayate-hero__mark {
+    grid-row: 1;
+    justify-self: end;
+    max-width: 5.5rem;
+  }
+
+  .hayate-hero h1 {
+    font-size: clamp(2.35rem, 12vw, 3rem);
+  }
+
+  .hayate-section,
+  .hayate-runs,
+  .hayate-final {
+    padding: 3.3rem 0;
+  }
+
+  .hayate-section--intro,
+  .hayate-proof {
+    display: block;
+  }
+
+  .hayate-section--intro > p:last-child {
+    margin-left: 0;
+  }
+
+  .hayate-runs__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hayate-runs__grid > div,
+  .hayate-runs__grid > div:first-child {
+    border-left: 0;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    padding: 1rem 0;
+  }
+
+  .hayate-proof > * + * {
+    margin-top: 1.5rem;
+  }
+
+  .hayate-family-links a {
+    gap: 0.4rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hayate-hero::after,
+  .hayate-hero h1,
+  .hayate-lede,
+  .hayate-actions,
+  .hayate-hero__mark {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .hayate-family-links a::before,
+  .hayate-hero__mark {
+    transition: none;
+  }
+}

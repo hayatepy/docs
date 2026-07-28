@@ -1,0 +1,102 @@
+schema_version = 1
+as_of = "2026-07-28"
+source_repository = "hayatepy/.github"
+source_commit = "4a835741aed9790fc9a9de9c007860187cbc4881"
+compatibility_url = "https://github.com/hayatepy/.github/blob/4a835741aed9790fc9a9de9c007860187cbc4881/docs/COMPATIBILITY.md"
+
+[[packages]]
+name = "hayate"
+version = "0.15.1"
+status = "Published alpha"
+role = "Core framework and native runtime adapters"
+use_when = "Build one Fetch-style Python application for ASGI, Workers, or Lambda."
+repository = "https://github.com/hayatepy/hayate"
+pypi = "https://pypi.org/project/hayate/"
+source_commit = "9e27b0191c7fa9f920ad6fe5b126e190268afba2"
+
+[[packages]]
+name = "create-hayate"
+version = "0.11.1"
+status = "Published alpha"
+role = "Composable project generator"
+use_when = "Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition."
+repository = "https://github.com/hayatepy/create-hayate"
+pypi = "https://pypi.org/project/create-hayate/"
+source_commit = "c8543a3487d2ff2e534e8f1e7a6b954e2704a6ce"
+
+[[packages]]
+name = "hayate-auth"
+version = "0.10.1"
+status = "Published alpha; independent audit pending"
+role = "Sessions, API keys, OAuth, passkeys, and authorization server"
+use_when = "Add first-party identity or protect an HTTP or MCP resource server."
+repository = "https://github.com/hayatepy/hayate-auth"
+pypi = "https://pypi.org/project/hayate-auth/"
+source_commit = "eff705c335d0903084988edea5b783be258f42e8"
+
+[[packages]]
+name = "hayate-mcp"
+version = "0.11.1"
+status = "Published alpha"
+role = "MCP 2025-11-25 Streamable HTTP"
+use_when = "Expose MCP tools on ASGI or native Cloudflare Workers."
+repository = "https://github.com/hayatepy/hayate-mcp"
+pypi = "https://pypi.org/project/hayate-mcp/"
+source_commit = "c1f42c55d47a68fc935460e4a8c07e262a1a7e56"
+
+[[packages]]
+name = "hayate-openapi"
+version = "0.7.0"
+status = "Published alpha"
+role = "OpenAPI 3.1, typed endpoints, Scalar, and TypeScript contracts"
+use_when = "Make runtime validation, API documentation, and client types share one contract."
+repository = "https://github.com/hayatepy/hayate-openapi"
+pypi = "https://pypi.org/project/hayate-openapi/"
+source_commit = "5d274a7cc337c3336d5316421691779504e592f7"
+
+[[packages]]
+name = "hayate-sql"
+version = "0.1.1"
+status = "Published alpha"
+role = "Checked SQL contracts and typed query facades"
+use_when = "Keep native SQLite, D1, or PostgreSQL while checking migrations and result shapes."
+repository = "https://github.com/hayatepy/hayate-sql"
+pypi = "https://pypi.org/project/hayate-sql/"
+source_commit = "583591cb5d0a8b4ae75395117bc7ffc2c2bd29b9"
+
+[[packages]]
+name = "hayate-fetch"
+version = "0.1.3"
+status = "Published alpha"
+role = "Portable outbound WHATWG-style fetch"
+use_when = "Use Hayate Request and Response types for outbound HTTP on CPython and Workers."
+repository = "https://github.com/hayatepy/hayate-fetch"
+pypi = "https://pypi.org/project/hayate-fetch/"
+source_commit = "e38fd7f862a07c1de3af81fa39e9db2a38fd6cb4"
+
+[[packages]]
+name = "hayate-admin"
+version = "0.2.0"
+status = "Pre-release source"
+role = "Explicit checked-SQL operational administration"
+use_when = "Give trusted operators bounded CRUD, relationships, audit history, and exports."
+repository = "https://github.com/hayatepy/hayate-admin"
+source_commit = "aedd4c47cbbe7c7d26cdf39b6c65fa201996369d"
+
+[[packages]]
+name = "hayate-htmx"
+version = "0.2.0"
+status = "Pre-release source"
+role = "Hypermedia, Jinja, htmx, fragments, and SSE"
+use_when = "Build progressively enhanced server-rendered applications without a JavaScript SPA."
+repository = "https://github.com/hayatepy/hayate-htmx"
+source_commit = "c133900998c487a44d40a103c52f2d469047deda"
+
+[[packages]]
+name = "golden-app"
+version = "0.1.0"
+status = "Reference application"
+role = "Executable production integration"
+use_when = "Review tested trust boundaries and deployment choices before shipping."
+repository = "https://github.com/hayatepy/golden-app"
+source_commit = "bc07ff927ce5ca3533f0a006b9000098b9df6e25"
