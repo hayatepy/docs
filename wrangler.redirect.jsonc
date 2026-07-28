@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "hayate-docs-http-redirect",
+  "main": "workers/http-redirect.js",
+  "compatibility_date": "2026-07-28",
+  "preview_urls": false,
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "http://hayatepy.dev/*",
+      "zone_name": "hayatepy.dev"
+    }
+  ]
+}

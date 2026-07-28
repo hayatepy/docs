@@ -5,7 +5,9 @@
   "description": "Unified documentation for the Hayate Python ecosystem",
   "scripts": {
     "build": "uv run zensical build --clean --strict && uv run python scripts/write_headers.py site && uv run python scripts/check_site.py site",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && npm run deploy:site && npm run deploy:redirect",
+    "deploy:site": "wrangler deploy",
+    "deploy:redirect": "wrangler deploy --config wrangler.redirect.jsonc",
     "preview": "npm run build && wrangler dev"
   },
   "devDependencies": {

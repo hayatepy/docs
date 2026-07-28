@@ -39,6 +39,11 @@ Deploy with the account authenticated by Wrangler:
 npm run deploy
 ```
 
+The deploy publishes the static site on the `hayatepy.dev` Custom Domain and a
+separate HTTP-only Route that redirects requests to HTTPS. Keeping the redirect
+Worker separate means HTTPS asset requests continue to use the static site
+Worker directly.
+
 The central site owns cross-package onboarding, runtime selection, ecosystem
 navigation, and evidence interpretation. Package-specific API details remain
 next to their implementation repositories.
