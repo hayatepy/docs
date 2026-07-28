@@ -5,7 +5,7 @@ Unified documentation and the public home for the
 [Zensical](https://zensical.org/) and deployed as
 [Cloudflare Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/).
 
-Production: <https://hayate-docs.yusuke8h.workers.dev/>
+Production: <https://hayatepy.dev/>
 
 ## Work locally
 

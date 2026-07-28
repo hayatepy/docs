@@ -7,7 +7,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlparse
 
-SITE_ORIGIN = "https://hayate-docs.yusuke8h.workers.dev"
+SITE_ORIGIN = "https://hayatepy.dev"
 
 
 class PageParser(HTMLParser):

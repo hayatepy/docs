@@ -14,7 +14,7 @@ def write_page(root: Path, relative: str, *, href: str = "/target/") -> None:
 <head>
   <title>Page</title>
   <meta name="description" content="Useful page">
-  <link rel="canonical" href="https://hayate-docs.yusuke8h.workers.dev/">
+  <link rel="canonical" href="https://hayatepy.dev/">
 </head>
 <body><main><h1>Page</h1><a href="{href}">Target</a></main></body>
 </html>

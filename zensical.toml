@@ -2,7 +2,7 @@
 site_name = "Hayate"
 site_description = "Web-standards-first Python across ASGI, Cloudflare Workers, and AWS Lambda"
 site_author = "The Hayate contributors"
-site_url = "https://hayate-docs.yusuke8h.workers.dev/"
+site_url = "https://hayatepy.dev/"
 repo_url = "https://github.com/hayatepy/docs"
 repo_name = "hayatepy/docs"
 edit_uri = "edit/main/docs/"
