@@ -91,6 +91,6 @@ description: One Fetch-style Python application across ASGI, Cloudflare Workers,
 <section class="hayate-final">
   <p class="hayate-kicker">START FROM A TESTED COMPOSITION</p>
   <h2>From empty directory to passing production checks.</h2>
-  <p><code>uvx --from create-hayate==0.11.1 create-hayate my-app --template workers --preset production</code></p>
+  <p><code>uvx --from create-hayate==0.12.0 create-hayate my-app --template workers --preset production</code></p>
   <a class="md-button md-button--primary" href="get-started/first-app/">Follow the verified path</a>
 </section>
