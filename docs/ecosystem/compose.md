@@ -25,7 +25,20 @@ uv add hayate hayate-openapi
 ```
 
 Use explicit `Annotated` request sources and return types to drive runtime
-binding, validation, JSON serialization, OpenAPI 3.1, and TypeScript types.
+binding, validation, JSON serialization, OpenAPI 3.1, TypeScript types, and a
+callable Fetch client.
+
+## Typed client boundary
+
+`hayate-openapi` emits `api-types.ts` and a status-discriminated
+`api-client.ts` from the same OpenAPI 3.1.1 document. The generated client
+uses the platform `fetch`, `URL`, `Headers`, `FormData`, and `Blob` APIs, so it
+has no runtime npm dependency. Path, query, header, cookie, JSON,
+URL-encoded, and multipart inputs stay tied to the published schema.
+
+The [golden application executes the compiled client against a real ASGI
+process](https://github.com/hayatepy/golden-app/blob/842fd2486f3d8bd5c284e44e4f8528b0441a574a/client/check-api-client.ts)
+instead of treating generation or type-checking alone as interoperability.
 
 ## Server-rendered application
 
@@ -49,7 +62,7 @@ customer workflows.
 them:
 
 ```sh
-uvx --from create-hayate==0.12.0 create-hayate --help
+uvx --from create-hayate==0.13.0 create-hayate --help
 ```
 
 Use the [family map](index.md) for current release state and package links.
