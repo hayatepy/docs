@@ -9,7 +9,7 @@ Cloudflare Access, checked SQL, request correlation, and production middleware.
 Install [uv](https://docs.astral.sh/uv/), then run:
 
 ```sh
-uvx --refresh --from create-hayate==0.13.0 \
+uvx --refresh --from create-hayate==0.13.1 \
   create-hayate my-app --template workers --preset production
 cd my-app
 ```
