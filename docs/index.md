@@ -89,6 +89,32 @@ description: One Fetch-style Python application across ASGI, Cloudflare Workers,
   <a class="md-button" href="evidence/">Read the evidence</a>
 </section>
 
+<section class="hayate-partners" aria-labelledby="partners-heading">
+  <div class="hayate-partners__inner">
+    <div class="hayate-partners__copy">
+      <p class="hayate-kicker">SHAPE THE V1 CONTRACT</p>
+      <h2 id="partners-heading">Bring a real workload.</h2>
+      <p>
+        Owner-external teams receive bounded onboarding help while Hayate
+        records the friction, fixes reproducible blockers, and bases v1
+        decisions on measured use.
+      </p>
+    </div>
+    <ol class="hayate-partners__tracks" aria-label="Design-partner tracks">
+      <li><span>01</span><strong>CPython / ASGI API</strong></li>
+      <li><span>02</span><strong>MCP or agent backend</strong></li>
+      <li><span>03</span><strong>Cloudflare Workers</strong></li>
+    </ol>
+    <div class="hayate-partners__actions">
+      <a
+        class="hayate-partners__apply"
+        href="https://github.com/hayatepy/.github/issues/new?template=design_partner.yml"
+      >Apply as a design partner <span aria-hidden="true">→</span></a>
+      <a href="contribute/#design-partners">Read the program details</a>
+    </div>
+  </div>
+</section>
+
 <section class="hayate-final">
   <p class="hayate-kicker">START FROM A TESTED COMPOSITION</p>
   <h2>From empty directory to passing production checks.</h2>
