@@ -4,13 +4,13 @@
 
 Choose packages by the boundary your application needs. The core stays small; capabilities are explicit packages with their own release and evidence.
 
-This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `9320a766fd5e`](https://github.com/hayatepy/.github/tree/9320a766fd5eab03298ae04a39ac39a68799dc48). Every package is pre-1.0; check the compatibility snapshot before combining versions.
+This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `1496dc87b780`](https://github.com/hayatepy/.github/tree/1496dc87b780ff81470518df468a18bd6783ebce). Every package is pre-1.0; check the compatibility snapshot before combining versions.
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
 | [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.1`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
 | [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.13.1`](https://pypi.org/project/create-hayate/) | Composable applications with drift-checked first-party TypeScript clients | Published alpha |
-| [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.3`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
+| [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.4`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
 | [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.0`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
 | [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.8.1`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, Scalar, and generated zero-runtime TypeScript clients | Published alpha |
 | [`hayate-sql`](https://github.com/hayatepy/hayate-sql) | [`0.1.1`](https://pypi.org/project/hayate-sql/) | Checked SQL contracts and typed query facades | Published alpha |
@@ -19,7 +19,7 @@ This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `9
 | [`hayate-htmx`](https://github.com/hayatepy/hayate-htmx) | `0.2.0` | Hypermedia, Jinja, htmx, fragments, and SSE | Pre-release source |
 | [`golden-app`](https://github.com/hayatepy/golden-app) | `0.1.0` | Executable production integration | Reference application |
 
-[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/9320a766fd5eab03298ae04a39ac39a68799dc48/docs/COMPATIBILITY.md)
+[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/1496dc87b780ff81470518df468a18bd6783ebce/docs/COMPATIBILITY.md)
 
 ## hayate
 
@@ -41,7 +41,7 @@ Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition
 
 Add first-party identity or protect an HTTP or MCP resource server.
 
-**Current evidence:** Published alpha; independent audit pending, version `0.10.3` · [source at `20dd7ae08c12`](https://github.com/hayatepy/hayate-auth/tree/20dd7ae08c12051d23fdbe4b242578f800dacdfc)
+**Current evidence:** Published alpha; independent audit pending, version `0.10.4` · [source at `938751d0f225`](https://github.com/hayatepy/hayate-auth/tree/938751d0f225def770d6ae47e1da3da40829c8d1)
 
 [Repository](https://github.com/hayatepy/hayate-auth) · [PyPI](https://pypi.org/project/hayate-auth/)
 
