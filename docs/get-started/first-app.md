@@ -9,7 +9,7 @@ Cloudflare Access, checked SQL, request correlation, and production middleware.
 Install [uv](https://docs.astral.sh/uv/), then run:
 
 ```sh
-uvx --refresh --from create-hayate==0.12.0 \
+uvx --refresh --from create-hayate==0.13.0 \
   create-hayate my-app --template workers --preset production
 cd my-app
 ```
@@ -26,6 +26,10 @@ uv sync --locked
 uv run pytest
 uv run ruff check .
 uv run python scripts/check_sql_contracts.py
+sh scripts/export_api.sh
+test -f openapi.json
+test -f client/api-types.ts
+test -f client/api-client.ts
 ```
 
 Commit `uv.lock` and use `uv sync --locked` in CI. The generated `.dev.vars`
@@ -38,6 +42,9 @@ credentials.
 - Uvicorn supplies local ASGI; SQLite supplies local data.
 - Workerd supplies the native Workers adapter; D1 is a runtime binding.
 - HTTP and MCP share request identity and checked storage.
+- `client/api-types.ts` and the callable `client/api-client.ts` come from the
+  same OpenAPI document. The client uses platform Fetch APIs and adds no
+  runtime package dependency.
 - The default Workers export is a `WorkerEntrypoint` class, preserving named
   RPC and class handlers such as `scheduled`.
 
