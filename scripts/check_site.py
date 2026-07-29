@@ -8,6 +8,9 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlparse
 
 SITE_ORIGIN = "https://hayatepy.dev"
+DESIGN_PARTNER_APPLICATION = (
+    "https://github.com/hayatepy/.github/issues/new?template=design_partner.yml"
+)
 
 
 class PageParser(HTMLParser):
@@ -96,6 +99,8 @@ def validate(root: Path) -> list[str]:
             failures.append(
                 f"{relative}: images missing alt: {', '.join(parser.images_without_alt)}"
             )
+        if relative == Path("index.html") and DESIGN_PARTNER_APPLICATION not in parser.hrefs:
+            failures.append("index.html: missing direct design-partner application link")
 
         base = SITE_ORIGIN + page_url(path, root)
         for href in parser.hrefs:
