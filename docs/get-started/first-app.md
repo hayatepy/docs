@@ -1,15 +1,15 @@
 # Build the first application
 
 This path creates one tested application for local ASGI/SQLite and native
-Cloudflare Workers/D1, with OpenAPI 3.1.1, MCP 2025-11-25, Cloudflare Access,
-checked SQL, request correlation, and production middleware.
+Cloudflare Workers/D1, with OpenAPI 3.1.1, MCP 2026-07-28 discovery and tools,
+Cloudflare Access, checked SQL, request correlation, and production middleware.
 
 ## 1. Generate
 
 Install [uv](https://docs.astral.sh/uv/), then run:
 
 ```sh
-uvx --refresh --from create-hayate==0.11.1 \
+uvx --refresh --from create-hayate==0.12.0 \
   create-hayate my-app --template workers --preset production
 cd my-app
 ```

@@ -4,14 +4,14 @@
 
 Choose packages by the boundary your application needs. The core stays small; capabilities are explicit packages with their own release and evidence.
 
-This snapshot is dated **2026-07-28** and is pinned to [`hayatepy/.github` at `edc90e493462`](https://github.com/hayatepy/.github/tree/edc90e493462645e2b88d34cf2f91a79bee349c1). Every package is pre-1.0; check the compatibility snapshot before combining versions.
+This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `0b44120a8e73`](https://github.com/hayatepy/.github/tree/0b44120a8e73d45fcfdfc1ce879faf5cd3452243). Every package is pre-1.0; check the compatibility snapshot before combining versions.
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
 | [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.1`](https://pypi.org/project/hayate/) | Core framework and native runtime adapters | Published alpha |
-| [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.11.1`](https://pypi.org/project/create-hayate/) | Composable project generator | Published alpha |
+| [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.12.0`](https://pypi.org/project/create-hayate/) | Composable project generator | Published alpha |
 | [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.1`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
-| [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.11.1`](https://pypi.org/project/hayate-mcp/) | MCP 2025-11-25 Streamable HTTP | Published alpha |
+| [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.0`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
 | [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.7.0`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, typed endpoints, Scalar, and TypeScript contracts | Published alpha |
 | [`hayate-sql`](https://github.com/hayatepy/hayate-sql) | [`0.1.1`](https://pypi.org/project/hayate-sql/) | Checked SQL contracts and typed query facades | Published alpha |
 | [`hayate-fetch`](https://github.com/hayatepy/hayate-fetch) | [`0.1.3`](https://pypi.org/project/hayate-fetch/) | Portable outbound WHATWG-style fetch | Published alpha |
@@ -19,7 +19,7 @@ This snapshot is dated **2026-07-28** and is pinned to [`hayatepy/.github` at `e
 | [`hayate-htmx`](https://github.com/hayatepy/hayate-htmx) | `0.2.0` | Hypermedia, Jinja, htmx, fragments, and SSE | Pre-release source |
 | [`golden-app`](https://github.com/hayatepy/golden-app) | `0.1.0` | Executable production integration | Reference application |
 
-[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/edc90e493462645e2b88d34cf2f91a79bee349c1/docs/COMPATIBILITY.md)
+[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/0b44120a8e73d45fcfdfc1ce879faf5cd3452243/docs/COMPATIBILITY.md)
 
 ## hayate
 
@@ -33,7 +33,7 @@ Build one Fetch-style Python application for ASGI, Workers, or Lambda.
 
 Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition.
 
-**Current evidence:** Published alpha, version `0.11.1` · [source at `c8543a3487d2`](https://github.com/hayatepy/create-hayate/tree/c8543a3487d2ff2e534e8f1e7a6b954e2704a6ce)
+**Current evidence:** Published alpha, version `0.12.0` · [source at `a1974325ce62`](https://github.com/hayatepy/create-hayate/tree/a1974325ce62a4bce5c6ceab27211675e07b0001)
 
 [Repository](https://github.com/hayatepy/create-hayate) · [PyPI](https://pypi.org/project/create-hayate/)
 
@@ -49,7 +49,7 @@ Add first-party identity or protect an HTTP or MCP resource server.
 
 Expose MCP tools on ASGI or native Cloudflare Workers.
 
-**Current evidence:** Published alpha, version `0.11.1` · [source at `c1f42c55d47a`](https://github.com/hayatepy/hayate-mcp/tree/c1f42c55d47a68fc935460e4a8c07e262a1a7e56)
+**Current evidence:** Published alpha, version `0.12.0` · [source at `175e6ed85a5e`](https://github.com/hayatepy/hayate-mcp/tree/175e6ed85a5e9af3e2fd9fcbf8886594bd2f6723)
 
 [Repository](https://github.com/hayatepy/hayate-mcp) · [PyPI](https://pypi.org/project/hayate-mcp/)
 
@@ -97,6 +97,6 @@ Build progressively enhanced server-rendered applications without a JavaScript S
 
 Review tested trust boundaries and deployment choices before shipping.
 
-**Current evidence:** Reference application, version `0.1.0` · [source at `bc07ff927ce5`](https://github.com/hayatepy/golden-app/tree/bc07ff927ce5ca3533f0a006b9000098b9df6e25)
+**Current evidence:** Reference application, version `0.1.0` · [source at `a424e1417baa`](https://github.com/hayatepy/golden-app/tree/a424e1417baa2830518ce696bb96130f34c90259)
 
 [Repository](https://github.com/hayatepy/golden-app)

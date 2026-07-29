@@ -49,7 +49,7 @@ customer workflows.
 them:
 
 ```sh
-uvx --from create-hayate==0.11.1 create-hayate --help
+uvx --from create-hayate==0.12.0 create-hayate --help
 ```
 
 Use the [family map](index.md) for current release state and package links.

@@ -1,8 +1,8 @@
 schema_version = 1
-as_of = "2026-07-28"
+as_of = "2026-07-30"
 source_repository = "hayatepy/.github"
-source_commit = "edc90e493462645e2b88d34cf2f91a79bee349c1"
-compatibility_url = "https://github.com/hayatepy/.github/blob/edc90e493462645e2b88d34cf2f91a79bee349c1/docs/COMPATIBILITY.md"
+source_commit = "0b44120a8e73d45fcfdfc1ce879faf5cd3452243"
+compatibility_url = "https://github.com/hayatepy/.github/blob/0b44120a8e73d45fcfdfc1ce879faf5cd3452243/docs/COMPATIBILITY.md"
 
 [[packages]]
 name = "hayate"
@@ -16,13 +16,13 @@ source_commit = "9e27b0191c7fa9f920ad6fe5b126e190268afba2"
 
 [[packages]]
 name = "create-hayate"
-version = "0.11.1"
+version = "0.12.0"
 status = "Published alpha"
 role = "Composable project generator"
 use_when = "Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition."
 repository = "https://github.com/hayatepy/create-hayate"
 pypi = "https://pypi.org/project/create-hayate/"
-source_commit = "c8543a3487d2ff2e534e8f1e7a6b954e2704a6ce"
+source_commit = "a1974325ce62a4bce5c6ceab27211675e07b0001"
 
 [[packages]]
 name = "hayate-auth"
@@ -36,13 +36,13 @@ source_commit = "eff705c335d0903084988edea5b783be258f42e8"
 
 [[packages]]
 name = "hayate-mcp"
-version = "0.11.1"
+version = "0.12.0"
 status = "Published alpha"
-role = "MCP 2025-11-25 Streamable HTTP"
+role = "MCP 2026-07-28 Streamable HTTP and discovery"
 use_when = "Expose MCP tools on ASGI or native Cloudflare Workers."
 repository = "https://github.com/hayatepy/hayate-mcp"
 pypi = "https://pypi.org/project/hayate-mcp/"
-source_commit = "c1f42c55d47a68fc935460e4a8c07e262a1a7e56"
+source_commit = "175e6ed85a5e9af3e2fd9fcbf8886594bd2f6723"
 
 [[packages]]
 name = "hayate-openapi"
@@ -99,4 +99,4 @@ status = "Reference application"
 role = "Executable production integration"
 use_when = "Review tested trust boundaries and deployment choices before shipping."
 repository = "https://github.com/hayatepy/golden-app"
-source_commit = "bc07ff927ce5ca3533f0a006b9000098b9df6e25"
+source_commit = "a424e1417baa2830518ce696bb96130f34c90259"
