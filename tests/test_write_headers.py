@@ -39,6 +39,7 @@ def test_writes_cloudflare_headers_with_strict_script_policy(tmp_path: Path) -> 
     assert expected_hash(script) in headers
     assert "script-src 'self'" in headers
     assert "'unsafe-inline'" not in headers.split("script-src", 1)[1].split(";", 1)[0]
+    assert "Strict-Transport-Security: max-age=31536000; includeSubDomains" in headers
     assert "X-Content-Type-Options: nosniff" in headers
     assert "Cache-Control:" not in headers
     assert (tmp_path / ".assetsignore").read_text(encoding="utf-8") == ".DS_Store\n"
