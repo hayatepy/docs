@@ -4,7 +4,7 @@ The current public snapshot is dated **2026-07-30**. All packages remain
 pre-1.0, so compatible versions must be selected from evidence rather than
 assumed from package names.
 
-[Open the immutable compatibility snapshot](https://github.com/hayatepy/.github/blob/975173da2c1be720a4f902cde36ba3822b9b6e56/docs/COMPATIBILITY.md){ .md-button .md-button--primary }
+[Open the immutable compatibility snapshot](https://github.com/hayatepy/.github/blob/1496dc87b780ff81470518df468a18bd6783ebce/docs/COMPATIBILITY.md){ .md-button .md-button--primary }
 
 ## Golden runtime lock
 
@@ -23,14 +23,14 @@ assumed from package names.
 
 - `hayate-openapi 0.8.1` generates the dependency-free callable TypeScript
   client and validates it against a real Hayate ASGI process.
-- `create-hayate 0.13.0` propagates the client, its types, and drift checks
+- `create-hayate 0.13.1` propagates the client, its types, and drift checks
   into generated projects.
 - The released generator passed all
-  [112 frontend compositions](https://github.com/hayatepy/create-hayate/actions/runs/30488857568).
+  [112 frontend compositions](https://github.com/hayatepy/create-hayate/actions/runs/30493092512).
   The aggregate evidence JSON SHA-256 is
-  `fb3f4dc15e8d49bd1fdb6a658df70cc33e174a0f9342895f732dca8aa57a8bb9`.
+  `f7be85bf13c135c9c112c3cb504c337f3e0fbad501fe575425ad69be898a84df`.
 - The [golden application main
-  run](https://github.com/hayatepy/golden-app/actions/runs/30488723553)
+  run](https://github.com/hayatepy/golden-app/actions/runs/30494459938)
   executes authenticated path, query, JSON, multipart, delete, and error
   flows through the compiled client.
 

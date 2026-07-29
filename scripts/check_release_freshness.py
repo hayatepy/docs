@@ -14,6 +14,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "ecosystem.toml"
 CREATE_HAYATE_PIN = re.compile(r"create-hayate==(\d+\.\d+\.\d+)")
+CREATE_HAYATE_RELEASE = re.compile(r"\bcreate-hayate (\d+\.\d+\.\d+)\b")
 PYPI_ORIGIN = "https://pypi.org"
 USER_AGENT = "hayatepy-docs-release-freshness/1"
 
@@ -85,6 +86,13 @@ def validate_create_hayate_pins(root: Path, data: Mapping[str, Any]) -> list[str
                     relative = path.relative_to(root)
                     failures.append(
                         f"{relative}:{line_number}: create-hayate pin "
+                        f"{match.group(1)} must match manifest {expected}"
+                    )
+            for match in CREATE_HAYATE_RELEASE.finditer(line):
+                if match.group(1) != expected:
+                    relative = path.relative_to(root)
+                    failures.append(
+                        f"{relative}:{line_number}: create-hayate release "
                         f"{match.group(1)} must match manifest {expected}"
                     )
     if references == 0:
