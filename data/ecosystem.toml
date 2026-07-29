@@ -1,8 +1,8 @@
 schema_version = 1
 as_of = "2026-07-30"
 source_repository = "hayatepy/.github"
-source_commit = "9320a766fd5eab03298ae04a39ac39a68799dc48"
-compatibility_url = "https://github.com/hayatepy/.github/blob/9320a766fd5eab03298ae04a39ac39a68799dc48/docs/COMPATIBILITY.md"
+source_commit = "1496dc87b780ff81470518df468a18bd6783ebce"
+compatibility_url = "https://github.com/hayatepy/.github/blob/1496dc87b780ff81470518df468a18bd6783ebce/docs/COMPATIBILITY.md"
 
 [[packages]]
 name = "hayate"
@@ -26,13 +26,13 @@ source_commit = "97d19b59e1256ec6d50e9ecb725296442fda4b20"
 
 [[packages]]
 name = "hayate-auth"
-version = "0.10.3"
+version = "0.10.4"
 status = "Published alpha; independent audit pending"
 role = "Sessions, API keys, OAuth, passkeys, and authorization server"
 use_when = "Add first-party identity or protect an HTTP or MCP resource server."
 repository = "https://github.com/hayatepy/hayate-auth"
 pypi = "https://pypi.org/project/hayate-auth/"
-source_commit = "20dd7ae08c12051d23fdbe4b242578f800dacdfc"
+source_commit = "938751d0f225def770d6ae47e1da3da40829c8d1"
 
 [[packages]]
 name = "hayate-mcp"
