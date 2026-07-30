@@ -4,28 +4,28 @@
 
 Choose packages by the boundary your application needs. The core stays small; capabilities are explicit packages with their own release and evidence.
 
-This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `039e629e1b4d`](https://github.com/hayatepy/.github/tree/039e629e1b4dfa3ec767cfd209e32f6028dd8f56). Every package is pre-1.0; check the compatibility snapshot before combining versions.
+This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `c9c19d02e15c`](https://github.com/hayatepy/.github/tree/c9c19d02e15c3030be2e6eed9d8ab3c8cc6c9226). Every package is pre-1.0; check the compatibility snapshot before combining versions.
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
-| [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.2`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
+| [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.3`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
 | [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.13.2`](https://pypi.org/project/create-hayate/) | Composable applications with drift-checked first-party TypeScript clients | Published alpha |
-| [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.4`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
+| [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.5`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
 | [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.1`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
-| [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.8.1`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, Scalar, and generated zero-runtime TypeScript clients | Published alpha |
-| [`hayate-sql`](https://github.com/hayatepy/hayate-sql) | [`0.1.1`](https://pypi.org/project/hayate-sql/) | Checked SQL contracts and typed query facades | Published alpha |
-| [`hayate-fetch`](https://github.com/hayatepy/hayate-fetch) | [`0.1.3`](https://pypi.org/project/hayate-fetch/) | Portable outbound WHATWG-style fetch | Published alpha |
+| [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.8.2`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, Scalar, and generated zero-runtime TypeScript clients | Published alpha |
+| [`hayate-sql`](https://github.com/hayatepy/hayate-sql) | [`0.1.2`](https://pypi.org/project/hayate-sql/) | Checked SQL contracts and typed query facades | Published alpha |
+| [`hayate-fetch`](https://github.com/hayatepy/hayate-fetch) | [`0.1.4`](https://pypi.org/project/hayate-fetch/) | Portable outbound WHATWG-style fetch | Published alpha |
 | [`hayate-admin`](https://github.com/hayatepy/hayate-admin) | `0.2.0` | Explicit checked-SQL operational administration | Pre-release source |
 | [`hayate-htmx`](https://github.com/hayatepy/hayate-htmx) | `0.2.0` | Hypermedia, Jinja, htmx, fragments, and SSE | Pre-release source |
 | [`golden-app`](https://github.com/hayatepy/golden-app) | `0.1.0` | Executable production integration | Reference application |
 
-[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/039e629e1b4dfa3ec767cfd209e32f6028dd8f56/docs/COMPATIBILITY.md)
+[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/c9c19d02e15c3030be2e6eed9d8ab3c8cc6c9226/docs/COMPATIBILITY.md)
 
 ## hayate
 
 Build one Fetch-style Python application for ASGI, Workers, or Lambda.
 
-**Current evidence:** Published alpha, version `0.15.2` · [source at `8cb27385cbc2`](https://github.com/hayatepy/hayate/tree/8cb27385cbc2655e531c37bdcdb45b1309c3a392)
+**Current evidence:** Published alpha, version `0.15.3` · [source at `a1821a27a83a`](https://github.com/hayatepy/hayate/tree/a1821a27a83a2406c491338a397b489856db15de)
 
 [Repository](https://github.com/hayatepy/hayate) · [PyPI](https://pypi.org/project/hayate/)
 
@@ -41,7 +41,7 @@ Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition
 
 Add first-party identity or protect an HTTP or MCP resource server.
 
-**Current evidence:** Published alpha; independent audit pending, version `0.10.4` · [source at `938751d0f225`](https://github.com/hayatepy/hayate-auth/tree/938751d0f225def770d6ae47e1da3da40829c8d1)
+**Current evidence:** Published alpha; independent audit pending, version `0.10.5` · [source at `4189e735844a`](https://github.com/hayatepy/hayate-auth/tree/4189e735844a06377e9aa7eea2a731d09e500449)
 
 [Repository](https://github.com/hayatepy/hayate-auth) · [PyPI](https://pypi.org/project/hayate-auth/)
 
@@ -57,7 +57,7 @@ Expose MCP tools on ASGI or native Cloudflare Workers.
 
 Make runtime validation, API documentation, client types, and a callable Fetch client share one contract.
 
-**Current evidence:** Published alpha, version `0.8.1` · [source at `2ed34215ec3d`](https://github.com/hayatepy/hayate-openapi/tree/2ed34215ec3dd5ebd0a0780f7b7903f0b3492a78)
+**Current evidence:** Published alpha, version `0.8.2` · [source at `1247f16e13fa`](https://github.com/hayatepy/hayate-openapi/tree/1247f16e13faf1cd8b9f507c4715e44bb1ec03be)
 
 [Repository](https://github.com/hayatepy/hayate-openapi) · [PyPI](https://pypi.org/project/hayate-openapi/)
 
@@ -65,7 +65,7 @@ Make runtime validation, API documentation, client types, and a callable Fetch c
 
 Keep native SQLite, D1, or PostgreSQL while checking migrations and result shapes.
 
-**Current evidence:** Published alpha, version `0.1.1` · [source at `583591cb5d0a`](https://github.com/hayatepy/hayate-sql/tree/583591cb5d0a8b4ae75395117bc7ffc2c2bd29b9)
+**Current evidence:** Published alpha, version `0.1.2` · [source at `4e84db1ab3a7`](https://github.com/hayatepy/hayate-sql/tree/4e84db1ab3a7683239f288fb1bae64afa3007303)
 
 [Repository](https://github.com/hayatepy/hayate-sql) · [PyPI](https://pypi.org/project/hayate-sql/)
 
@@ -73,7 +73,7 @@ Keep native SQLite, D1, or PostgreSQL while checking migrations and result shape
 
 Use Hayate Request and Response types for outbound HTTP on CPython and Workers.
 
-**Current evidence:** Published alpha, version `0.1.3` · [source at `e38fd7f862a0`](https://github.com/hayatepy/hayate-fetch/tree/e38fd7f862a07c1de3af81fa39e9db2a38fd6cb4)
+**Current evidence:** Published alpha, version `0.1.4` · [source at `c684291e0fcc`](https://github.com/hayatepy/hayate-fetch/tree/c684291e0fcc1067d9cf4548370c50fb68678a67)
 
 [Repository](https://github.com/hayatepy/hayate-fetch) · [PyPI](https://pypi.org/project/hayate-fetch/)
 
@@ -81,7 +81,7 @@ Use Hayate Request and Response types for outbound HTTP on CPython and Workers.
 
 Give trusted operators bounded CRUD, relationships, audit history, and exports.
 
-**Current evidence:** Pre-release source, version `0.2.0` · [source at `aedd4c47cbbe`](https://github.com/hayatepy/hayate-admin/tree/aedd4c47cbbe7c7d26cdf39b6c65fa201996369d)
+**Current evidence:** Pre-release source, version `0.2.0` · [source at `89763a50e83b`](https://github.com/hayatepy/hayate-admin/tree/89763a50e83b5e6a35680385ebe861e02da64bea)
 
 [Repository](https://github.com/hayatepy/hayate-admin)
 
@@ -89,7 +89,7 @@ Give trusted operators bounded CRUD, relationships, audit history, and exports.
 
 Build progressively enhanced server-rendered applications without a JavaScript SPA.
 
-**Current evidence:** Pre-release source, version `0.2.0` · [source at `c133900998c4`](https://github.com/hayatepy/hayate-htmx/tree/c133900998c487a44d40a103c52f2d469047deda)
+**Current evidence:** Pre-release source, version `0.2.0` · [source at `afc813511819`](https://github.com/hayatepy/hayate-htmx/tree/afc8135118198ce2d64241ce175174b80fb31f80)
 
 [Repository](https://github.com/hayatepy/hayate-htmx)
 
@@ -97,6 +97,6 @@ Build progressively enhanced server-rendered applications without a JavaScript S
 
 Review tested trust boundaries and deployment choices before shipping.
 
-**Current evidence:** Reference application, version `0.1.0` · [source at `87e8e907c769`](https://github.com/hayatepy/golden-app/tree/87e8e907c769ffc5ff24926470eb1ec7641f63b5)
+**Current evidence:** Reference application, version `0.1.0` · [source at `381c071f108e`](https://github.com/hayatepy/golden-app/tree/381c071f108e29b16eae6b19b7f870a4fc3f18a9)
 
 [Repository](https://github.com/hayatepy/golden-app)
