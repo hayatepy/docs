@@ -4,12 +4,12 @@
 
 Choose packages by the boundary your application needs. The core stays small; capabilities are explicit packages with their own release and evidence.
 
-This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `c9c19d02e15c`](https://github.com/hayatepy/.github/tree/c9c19d02e15c3030be2e6eed9d8ab3c8cc6c9226). Every package is pre-1.0; check the compatibility snapshot before combining versions.
+This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `74327adddc10`](https://github.com/hayatepy/.github/tree/74327adddc10cad0f3f802a4bfd29ef484572907). Every package is pre-1.0; check the compatibility snapshot before combining versions.
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
 | [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.3`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
-| [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.13.2`](https://pypi.org/project/create-hayate/) | Composable applications with drift-checked first-party TypeScript clients | Published alpha |
+| [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.14.0`](https://pypi.org/project/create-hayate/) | Composable applications with deployment identity and drift-checked TypeScript clients | Published alpha |
 | [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.5`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
 | [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.1`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
 | [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.8.2`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, Scalar, and generated zero-runtime TypeScript clients | Published alpha |
@@ -19,7 +19,7 @@ This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `c
 | [`hayate-htmx`](https://github.com/hayatepy/hayate-htmx) | `0.2.0` | Hypermedia, Jinja, htmx, fragments, and SSE | Pre-release source |
 | [`golden-app`](https://github.com/hayatepy/golden-app) | `0.1.0` | Executable production integration | Reference application |
 
-[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/c9c19d02e15c3030be2e6eed9d8ab3c8cc6c9226/docs/COMPATIBILITY.md)
+[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/74327adddc10cad0f3f802a4bfd29ef484572907/docs/COMPATIBILITY.md)
 
 ## hayate
 
@@ -31,9 +31,9 @@ Build one Fetch-style Python application for ASGI, Workers, or Lambda.
 
 ## create-hayate
 
-Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition and keep its generated client in sync.
+Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition; identify each rollout and keep its generated client in sync.
 
-**Current evidence:** Published alpha, version `0.13.2` · [source at `8bcca24bbd43`](https://github.com/hayatepy/create-hayate/tree/8bcca24bbd43854c05a6467d26b675c20a89b63e)
+**Current evidence:** Published alpha, version `0.14.0` · [source at `261af98f18b1`](https://github.com/hayatepy/create-hayate/tree/261af98f18b1f97cbb94f7bf19a99ab34e92be4f)
 
 [Repository](https://github.com/hayatepy/create-hayate) · [PyPI](https://pypi.org/project/create-hayate/)
 
@@ -97,6 +97,6 @@ Build progressively enhanced server-rendered applications without a JavaScript S
 
 Review tested trust boundaries and deployment choices before shipping.
 
-**Current evidence:** Reference application, version `0.1.0` · [source at `381c071f108e`](https://github.com/hayatepy/golden-app/tree/381c071f108e29b16eae6b19b7f870a4fc3f18a9)
+**Current evidence:** Reference application, version `0.1.0` · [source at `f0e334554f4b`](https://github.com/hayatepy/golden-app/tree/f0e334554f4b98e4be941dcb84feaaf6b47a9c89)
 
 [Repository](https://github.com/hayatepy/golden-app)

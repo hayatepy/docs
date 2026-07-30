@@ -37,7 +37,7 @@ has no runtime npm dependency. Path, query, header, cookie, JSON,
 URL-encoded, and multipart inputs stay tied to the published schema.
 
 The [golden application executes the compiled client against a real ASGI
-process](https://github.com/hayatepy/golden-app/blob/842fd2486f3d8bd5c284e44e4f8528b0441a574a/client/check-api-client.ts)
+process](https://github.com/hayatepy/golden-app/blob/f0e334554f4b98e4be941dcb84feaaf6b47a9c89/client/check-api-client.ts)
 instead of treating generation or type-checking alone as interoperability.
 
 ## Server-rendered application
@@ -62,7 +62,7 @@ customer workflows.
 them:
 
 ```sh
-uvx --from create-hayate==0.13.2 create-hayate --help
+uvx --from create-hayate==0.14.0 create-hayate --help
 ```
 
 Use the [family map](index.md) for current release state and package links.
