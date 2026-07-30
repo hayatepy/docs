@@ -23,12 +23,16 @@ assumed from package names.
 
 - `hayate-openapi 0.8.1` generates the dependency-free callable TypeScript
   client and validates it against a real Hayate ASGI process.
-- `create-hayate 0.13.1` propagates the client, its types, and drift checks
+- `create-hayate 0.13.2` propagates the client, its types, and drift checks
   into generated projects.
-- The released generator passed all
-  [112 frontend compositions](https://github.com/hayatepy/create-hayate/actions/runs/30493092512).
-  The aggregate evidence JSON SHA-256 is
-  `f7be85bf13c135c9c112c3cb504c337f3e0fbad501fe575425ad69be898a84df`.
+- Its [release workflow](https://github.com/hayatepy/create-hayate/actions/runs/30502570222)
+  resolved and imported all 52 supported backend compositions before publishing
+  the signed, attested wheel.
+- The `0.13.2` wheel also passed the current
+  [10-case frontend smoke](https://github.com/hayatepy/create-hayate/actions/runs/30502309672)
+  across htmx renderers, React, Astro, ASGI, and real Workerd. The aggregate
+  evidence JSON SHA-256 is
+  `f207dcd979c695508c4bf672432848e5469ebf4ab1b58b0f2c4fecb8e004af05`.
 - The [golden application main
   run](https://github.com/hayatepy/golden-app/actions/runs/30494459938)
   executes authenticated path, query, JSON, multipart, delete, and error

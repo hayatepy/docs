@@ -6,23 +6,23 @@ compatibility_url = "https://github.com/hayatepy/.github/blob/1496dc87b780ff8147
 
 [[packages]]
 name = "hayate"
-version = "0.15.1"
+version = "0.15.2"
 status = "Published alpha"
 role = "Core framework and native ASGI, Workers, and Lambda adapters"
 use_when = "Build one Fetch-style Python application for ASGI, Workers, or Lambda."
 repository = "https://github.com/hayatepy/hayate"
 pypi = "https://pypi.org/project/hayate/"
-source_commit = "5592276315c9b75e736d3fc204b4900e15f8867a"
+source_commit = "8cb27385cbc2655e531c37bdcdb45b1309c3a392"
 
 [[packages]]
 name = "create-hayate"
-version = "0.13.1"
+version = "0.13.2"
 status = "Published alpha"
 role = "Composable applications with drift-checked first-party TypeScript clients"
 use_when = "Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition and keep its generated client in sync."
 repository = "https://github.com/hayatepy/create-hayate"
 pypi = "https://pypi.org/project/create-hayate/"
-source_commit = "97d19b59e1256ec6d50e9ecb725296442fda4b20"
+source_commit = "8bcca24bbd43854c05a6467d26b675c20a89b63e"
 
 [[packages]]
 name = "hayate-auth"

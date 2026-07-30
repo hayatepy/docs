@@ -8,8 +8,8 @@ This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `1
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
-| [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.1`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
-| [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.13.1`](https://pypi.org/project/create-hayate/) | Composable applications with drift-checked first-party TypeScript clients | Published alpha |
+| [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.2`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
+| [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.13.2`](https://pypi.org/project/create-hayate/) | Composable applications with drift-checked first-party TypeScript clients | Published alpha |
 | [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.4`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
 | [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.0`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
 | [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.8.1`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, Scalar, and generated zero-runtime TypeScript clients | Published alpha |
@@ -25,7 +25,7 @@ This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `1
 
 Build one Fetch-style Python application for ASGI, Workers, or Lambda.
 
-**Current evidence:** Published alpha, version `0.15.1` · [source at `5592276315c9`](https://github.com/hayatepy/hayate/tree/5592276315c9b75e736d3fc204b4900e15f8867a)
+**Current evidence:** Published alpha, version `0.15.2` · [source at `8cb27385cbc2`](https://github.com/hayatepy/hayate/tree/8cb27385cbc2655e531c37bdcdb45b1309c3a392)
 
 [Repository](https://github.com/hayatepy/hayate) · [PyPI](https://pypi.org/project/hayate/)
 
@@ -33,7 +33,7 @@ Build one Fetch-style Python application for ASGI, Workers, or Lambda.
 
 Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition and keep its generated client in sync.
 
-**Current evidence:** Published alpha, version `0.13.1` · [source at `97d19b59e125`](https://github.com/hayatepy/create-hayate/tree/97d19b59e1256ec6d50e9ecb725296442fda4b20)
+**Current evidence:** Published alpha, version `0.13.2` · [source at `8bcca24bbd43`](https://github.com/hayatepy/create-hayate/tree/8bcca24bbd43854c05a6467d26b675c20a89b63e)
 
 [Repository](https://github.com/hayatepy/create-hayate) · [PyPI](https://pypi.org/project/create-hayate/)
 
