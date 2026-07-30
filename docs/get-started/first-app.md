@@ -9,7 +9,7 @@ Cloudflare Access, checked SQL, request correlation, and production middleware.
 Install [uv](https://docs.astral.sh/uv/), then run:
 
 ```sh
-uvx --refresh --from create-hayate==0.13.2 \
+uvx --refresh --from create-hayate==0.14.0 \
   create-hayate my-app --template workers --preset production
 cd my-app
 ```
@@ -47,6 +47,12 @@ credentials.
   runtime package dependency.
 - The default Workers export is a `WorkerEntrypoint` class, preserving named
   RPC and class handlers such as `scheduled`.
+- Every response identifies the application release with `X-Hayate-App-Version`.
+  Native Workers responses also expose Cloudflare's immutable deployment UUID
+  as `X-Hayate-Worker-Version`; local ASGI responses intentionally omit it.
+- Protected production requests fail closed when either required deployment
+  identity is absent. CORS exposes both identifiers only to the configured
+  exact origin.
 
 ASGI is not involved in the native Workers path.
 

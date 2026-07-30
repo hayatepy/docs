@@ -1,8 +1,8 @@
 schema_version = 1
 as_of = "2026-07-30"
 source_repository = "hayatepy/.github"
-source_commit = "c9c19d02e15c3030be2e6eed9d8ab3c8cc6c9226"
-compatibility_url = "https://github.com/hayatepy/.github/blob/c9c19d02e15c3030be2e6eed9d8ab3c8cc6c9226/docs/COMPATIBILITY.md"
+source_commit = "74327adddc10cad0f3f802a4bfd29ef484572907"
+compatibility_url = "https://github.com/hayatepy/.github/blob/74327adddc10cad0f3f802a4bfd29ef484572907/docs/COMPATIBILITY.md"
 
 [[packages]]
 name = "hayate"
@@ -16,13 +16,13 @@ source_commit = "a1821a27a83a2406c491338a397b489856db15de"
 
 [[packages]]
 name = "create-hayate"
-version = "0.13.2"
+version = "0.14.0"
 status = "Published alpha"
-role = "Composable applications with drift-checked first-party TypeScript clients"
-use_when = "Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition and keep its generated client in sync."
+role = "Composable applications with deployment identity and drift-checked TypeScript clients"
+use_when = "Start with a tested API, Workers, MCP, auth, SQL, admin, or frontend composition; identify each rollout and keep its generated client in sync."
 repository = "https://github.com/hayatepy/create-hayate"
 pypi = "https://pypi.org/project/create-hayate/"
-source_commit = "8bcca24bbd43854c05a6467d26b675c20a89b63e"
+source_commit = "261af98f18b1f97cbb94f7bf19a99ab34e92be4f"
 
 [[packages]]
 name = "hayate-auth"
@@ -99,4 +99,4 @@ status = "Reference application"
 role = "Executable production integration"
 use_when = "Review tested trust boundaries and deployment choices before shipping."
 repository = "https://github.com/hayatepy/golden-app"
-source_commit = "381c071f108e29b16eae6b19b7f870a4fc3f18a9"
+source_commit = "f0e334554f4b98e4be941dcb84feaaf6b47a9c89"
