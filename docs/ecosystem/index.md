@@ -4,14 +4,14 @@
 
 Choose packages by the boundary your application needs. The core stays small; capabilities are explicit packages with their own release and evidence.
 
-This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `1496dc87b780`](https://github.com/hayatepy/.github/tree/1496dc87b780ff81470518df468a18bd6783ebce). Every package is pre-1.0; check the compatibility snapshot before combining versions.
+This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `039e629e1b4d`](https://github.com/hayatepy/.github/tree/039e629e1b4dfa3ec767cfd209e32f6028dd8f56). Every package is pre-1.0; check the compatibility snapshot before combining versions.
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
 | [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.2`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
 | [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.13.2`](https://pypi.org/project/create-hayate/) | Composable applications with drift-checked first-party TypeScript clients | Published alpha |
 | [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.4`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
-| [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.0`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
+| [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.1`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
 | [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.8.1`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, Scalar, and generated zero-runtime TypeScript clients | Published alpha |
 | [`hayate-sql`](https://github.com/hayatepy/hayate-sql) | [`0.1.1`](https://pypi.org/project/hayate-sql/) | Checked SQL contracts and typed query facades | Published alpha |
 | [`hayate-fetch`](https://github.com/hayatepy/hayate-fetch) | [`0.1.3`](https://pypi.org/project/hayate-fetch/) | Portable outbound WHATWG-style fetch | Published alpha |
@@ -19,7 +19,7 @@ This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `1
 | [`hayate-htmx`](https://github.com/hayatepy/hayate-htmx) | `0.2.0` | Hypermedia, Jinja, htmx, fragments, and SSE | Pre-release source |
 | [`golden-app`](https://github.com/hayatepy/golden-app) | `0.1.0` | Executable production integration | Reference application |
 
-[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/1496dc87b780ff81470518df468a18bd6783ebce/docs/COMPATIBILITY.md)
+[Open the tested compatibility snapshot](https://github.com/hayatepy/.github/blob/039e629e1b4dfa3ec767cfd209e32f6028dd8f56/docs/COMPATIBILITY.md)
 
 ## hayate
 
@@ -49,7 +49,7 @@ Add first-party identity or protect an HTTP or MCP resource server.
 
 Expose MCP tools on ASGI or native Cloudflare Workers.
 
-**Current evidence:** Published alpha, version `0.12.0` · [source at `175e6ed85a5e`](https://github.com/hayatepy/hayate-mcp/tree/175e6ed85a5e9af3e2fd9fcbf8886594bd2f6723)
+**Current evidence:** Published alpha, version `0.12.1` · [source at `249b2df4bc41`](https://github.com/hayatepy/hayate-mcp/tree/249b2df4bc41a0603e168b22c53815e31d2d5711)
 
 [Repository](https://github.com/hayatepy/hayate-mcp) · [PyPI](https://pypi.org/project/hayate-mcp/)
 
@@ -97,6 +97,6 @@ Build progressively enhanced server-rendered applications without a JavaScript S
 
 Review tested trust boundaries and deployment choices before shipping.
 
-**Current evidence:** Reference application, version `0.1.0` · [source at `cfa07c1d129b`](https://github.com/hayatepy/golden-app/tree/cfa07c1d129b588b3c539a6d6c9fcdd443cefbf7)
+**Current evidence:** Reference application, version `0.1.0` · [source at `87e8e907c769`](https://github.com/hayatepy/golden-app/tree/87e8e907c769ffc5ff24926470eb1ec7641f63b5)
 
 [Repository](https://github.com/hayatepy/golden-app)

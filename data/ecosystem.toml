@@ -1,8 +1,8 @@
 schema_version = 1
 as_of = "2026-07-30"
 source_repository = "hayatepy/.github"
-source_commit = "1496dc87b780ff81470518df468a18bd6783ebce"
-compatibility_url = "https://github.com/hayatepy/.github/blob/1496dc87b780ff81470518df468a18bd6783ebce/docs/COMPATIBILITY.md"
+source_commit = "039e629e1b4dfa3ec767cfd209e32f6028dd8f56"
+compatibility_url = "https://github.com/hayatepy/.github/blob/039e629e1b4dfa3ec767cfd209e32f6028dd8f56/docs/COMPATIBILITY.md"
 
 [[packages]]
 name = "hayate"
@@ -36,13 +36,13 @@ source_commit = "938751d0f225def770d6ae47e1da3da40829c8d1"
 
 [[packages]]
 name = "hayate-mcp"
-version = "0.12.0"
+version = "0.12.1"
 status = "Published alpha"
 role = "MCP 2026-07-28 Streamable HTTP and discovery"
 use_when = "Expose MCP tools on ASGI or native Cloudflare Workers."
 repository = "https://github.com/hayatepy/hayate-mcp"
 pypi = "https://pypi.org/project/hayate-mcp/"
-source_commit = "175e6ed85a5e9af3e2fd9fcbf8886594bd2f6723"
+source_commit = "249b2df4bc41a0603e168b22c53815e31d2d5711"
 
 [[packages]]
 name = "hayate-openapi"
@@ -99,4 +99,4 @@ status = "Reference application"
 role = "Executable production integration"
 use_when = "Review tested trust boundaries and deployment choices before shipping."
 repository = "https://github.com/hayatepy/golden-app"
-source_commit = "cfa07c1d129b588b3c539a6d6c9fcdd443cefbf7"
+source_commit = "87e8e907c769ffc5ff24926470eb1ec7641f63b5"

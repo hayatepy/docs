@@ -25,7 +25,7 @@ conventional ASGI, MCP or agent backends, and Cloudflare Workers. It records
 time to first test, local request, deployment, dependency footprint, and every
 maintainer intervention.
 
-[Read the bounded program and apply](https://github.com/hayatepy/.github/blob/main/docs/DESIGN_PARTNERS.md){ .md-button }
+[Apply through the public GitHub form](https://github.com/hayatepy/.github/issues/new?template=design_partner.yml){ .md-button }
 
 ## Security
 
