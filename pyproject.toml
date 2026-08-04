@@ -3,12 +3,12 @@ name = "hayate-documentation"
 version = "0.1.0"
 description = "Unified documentation for the Hayate Python ecosystem"
 requires-python = ">=3.12"
-dependencies = ["zensical==0.0.51"]
+dependencies = ["zensical==0.0.52"]
 
 [dependency-groups]
 dev = [
   "pytest==9.1.1",
-  "ruff==0.16.0",
+  "ruff==0.16.1",
 ]
 
 [tool.pytest.ini_options]
