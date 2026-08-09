@@ -6,7 +6,7 @@ compatibility_url = "https://github.com/hayatepy/.github/blob/74327adddc10cad0f3
 
 [[packages]]
 name = "hayate"
-version = "0.15.3"
+version = "0.16.0"
 status = "Published alpha"
 role = "Core framework and native ASGI, Workers, and Lambda adapters"
 use_when = "Build one Fetch-style Python application for ASGI, Workers, or Lambda."
@@ -66,7 +66,7 @@ source_commit = "4e84db1ab3a7683239f288fb1bae64afa3007303"
 
 [[packages]]
 name = "hayate-fetch"
-version = "0.1.4"
+version = "0.2.1"
 status = "Published alpha"
 role = "Portable outbound WHATWG-style fetch"
 use_when = "Use Hayate Request and Response types for outbound HTTP on CPython and Workers."

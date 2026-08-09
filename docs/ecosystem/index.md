@@ -8,13 +8,13 @@ This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `7
 
 | Project | Version | Responsibility | Release state |
 |---|---:|---|---|
-| [`hayate`](https://github.com/hayatepy/hayate) | [`0.15.3`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
+| [`hayate`](https://github.com/hayatepy/hayate) | [`0.16.0`](https://pypi.org/project/hayate/) | Core framework and native ASGI, Workers, and Lambda adapters | Published alpha |
 | [`create-hayate`](https://github.com/hayatepy/create-hayate) | [`0.14.0`](https://pypi.org/project/create-hayate/) | Composable applications with deployment identity and drift-checked TypeScript clients | Published alpha |
 | [`hayate-auth`](https://github.com/hayatepy/hayate-auth) | [`0.10.5`](https://pypi.org/project/hayate-auth/) | Sessions, API keys, OAuth, passkeys, and authorization server | Published alpha; independent audit pending |
 | [`hayate-mcp`](https://github.com/hayatepy/hayate-mcp) | [`0.12.1`](https://pypi.org/project/hayate-mcp/) | MCP 2026-07-28 Streamable HTTP and discovery | Published alpha |
 | [`hayate-openapi`](https://github.com/hayatepy/hayate-openapi) | [`0.8.2`](https://pypi.org/project/hayate-openapi/) | OpenAPI 3.1, Scalar, and generated zero-runtime TypeScript clients | Published alpha |
 | [`hayate-sql`](https://github.com/hayatepy/hayate-sql) | [`0.1.2`](https://pypi.org/project/hayate-sql/) | Checked SQL contracts and typed query facades | Published alpha |
-| [`hayate-fetch`](https://github.com/hayatepy/hayate-fetch) | [`0.1.4`](https://pypi.org/project/hayate-fetch/) | Portable outbound WHATWG-style fetch | Published alpha |
+| [`hayate-fetch`](https://github.com/hayatepy/hayate-fetch) | [`0.2.1`](https://pypi.org/project/hayate-fetch/) | Portable outbound WHATWG-style fetch | Published alpha |
 | [`hayate-admin`](https://github.com/hayatepy/hayate-admin) | `0.2.0` | Explicit checked-SQL operational administration | Pre-release source |
 | [`hayate-htmx`](https://github.com/hayatepy/hayate-htmx) | `0.2.0` | Hypermedia, Jinja, htmx, fragments, and SSE | Pre-release source |
 | [`golden-app`](https://github.com/hayatepy/golden-app) | `0.1.0` | Executable production integration | Reference application |
@@ -25,7 +25,7 @@ This snapshot is dated **2026-07-30** and is pinned to [`hayatepy/.github` at `7
 
 Build one Fetch-style Python application for ASGI, Workers, or Lambda.
 
-**Current evidence:** Published alpha, version `0.15.3` · [source at `a1821a27a83a`](https://github.com/hayatepy/hayate/tree/a1821a27a83a2406c491338a397b489856db15de)
+**Current evidence:** Published alpha, version `0.16.0` · [source at `a1821a27a83a`](https://github.com/hayatepy/hayate/tree/a1821a27a83a2406c491338a397b489856db15de)
 
 [Repository](https://github.com/hayatepy/hayate) · [PyPI](https://pypi.org/project/hayate/)
 
@@ -73,7 +73,7 @@ Keep native SQLite, D1, or PostgreSQL while checking migrations and result shape
 
 Use Hayate Request and Response types for outbound HTTP on CPython and Workers.
 
-**Current evidence:** Published alpha, version `0.1.4` · [source at `c684291e0fcc`](https://github.com/hayatepy/hayate-fetch/tree/c684291e0fcc1067d9cf4548370c50fb68678a67)
+**Current evidence:** Published alpha, version `0.2.1` · [source at `c684291e0fcc`](https://github.com/hayatepy/hayate-fetch/tree/c684291e0fcc1067d9cf4548370c50fb68678a67)
 
 [Repository](https://github.com/hayatepy/hayate-fetch) · [PyPI](https://pypi.org/project/hayate-fetch/)
 
