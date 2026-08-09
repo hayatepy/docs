@@ -1,6 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: uv
+    open-pull-requests-limit: 0
     directory: /
     schedule:
       interval: weekly
@@ -9,6 +10,7 @@ updates:
         patterns: ["*"]
 
   - package-ecosystem: github-actions
+    open-pull-requests-limit: 0
     directory: /
     schedule:
       interval: weekly
