@@ -11,7 +11,7 @@
     "preview": "npm run build && wrangler dev"
   },
   "devDependencies": {
-    "wrangler": "4.114.0"
+    "wrangler": "4.124.0"
   },
   "engines": {
     "node": ">=24"
